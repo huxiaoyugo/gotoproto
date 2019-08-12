@@ -1,5 +1,5 @@
 syntax = "proto3";
-package rpc;
+package pack;
 
 //  接口
 service bg {
