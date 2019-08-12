@@ -2,9 +2,9 @@ package generator
 
 import (
 	"fmt"
-	"strings"
-	"github.com/pkg/errors"
 	"github.com/mkideal/log"
+	"github.com/pkg/errors"
+	"strings"
 )
 
 // 消息

@@ -1,9 +1,9 @@
 package main
 
 import (
-	"gotoproto/generator"
 	"flag"
 	"fmt"
+	"github.com/huxiaoyugo/gotoproto/generator"
 	"strings"
 )
 

@@ -1,9 +1,10 @@
 package fileWriter
 
 import (
-	"os"
+	"fmt"
+	"github.com/lunny/log"
 	"io"
-	"github.com/mkideal/log"
+	"os"
 )
 
 // 写入方式
@@ -60,9 +61,9 @@ func (writer *FileWriter) writeToFile(content string, flag SeekType) error {
 	var errOut error
 	// 将指针移动到文件末尾
 	ret, errOut := writer.file.Seek(0, int(flag))
-	log.Trace("seek current position %d", ret)
+	log.Info(fmt.Scan("seek current position %d", ret))
 	if errOut != nil {
-		log.Error("%v",errOut)
+		log.Error(errOut)
 		return errOut
 	}
 	// 写入数据

@@ -1,10 +1,10 @@
 package generator
 
 import (
+	"github.com/mkideal/log"
+	"github.com/pkg/errors"
 	"go/ast"
 	"go/token"
-	"github.com/pkg/errors"
-	"github.com/mkideal/log"
 	"strconv"
 )
 

@@ -1,14 +1,14 @@
 package generator
 
 import (
-	"go/token"
-	"go/parser"
-	"go/ast"
-	"github.com/qianlnk/log"
-	"strings"
-	"github.com/pkg/errors"
+	"errors"
 	"fmt"
-	"gotoproto/fileWriter"
+	"github.com/huxiaoyugo/gotoproto/fileWriter"
+	"go/ast"
+	"go/parser"
+	"go/token"
+	"strings"
+	"github.com/lunny/log"
 )
 
 
